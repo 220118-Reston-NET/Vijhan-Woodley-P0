@@ -5,7 +5,7 @@ public class Payment
     {
         if(money > sm.Price)
         {
-            int change = money - sm.Price;
+            double change = money - sm.Price;
             Console.WriteLine("Transaction Complete!");
             Console.WriteLine("Your change is $" + change);
             Console.WriteLine("Here is your " + sm.Name);

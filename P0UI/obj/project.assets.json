@@ -1,11 +1,143 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Serilog/2.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "P0BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "P0DL": "1.0.0",
+          "P0Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P0BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P0BL.dll": {}
+        }
+      },
+      "P0DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "P0Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P0DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P0DL.dll": {}
+        }
+      },
+      "P0Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/P0Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P0Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Serilog/2.10.0": {
+      "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "type": "package",
+      "path": "serilog/2.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.2.10.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/5.0.0": {
+      "sha512": "uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "type": "package",
+      "path": "serilog.sinks.file/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.pdb",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/net5.0/Serilog.Sinks.File.dll",
+        "lib/net5.0/Serilog.Sinks.File.pdb",
+        "lib/net5.0/Serilog.Sinks.File.xml",
+        "lib/netstandard1.3/Serilog.Sinks.File.dll",
+        "lib/netstandard1.3/Serilog.Sinks.File.pdb",
+        "lib/netstandard1.3/Serilog.Sinks.File.xml",
+        "lib/netstandard2.0/Serilog.Sinks.File.dll",
+        "lib/netstandard2.0/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.0/Serilog.Sinks.File.xml",
+        "lib/netstandard2.1/Serilog.Sinks.File.dll",
+        "lib/netstandard2.1/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.1/Serilog.Sinks.File.xml",
+        "serilog.sinks.file.5.0.0.nupkg.sha512",
+        "serilog.sinks.file.nuspec"
+      ]
+    },
+    "P0BL/1.0.0": {
+      "type": "project",
+      "path": "../P0BL/P0BL.csproj",
+      "msbuildProject": "../P0BL/P0BL.csproj"
+    },
+    "P0DL/1.0.0": {
+      "type": "project",
+      "path": "../P0DL/P0DL.csproj",
+      "msbuildProject": "../P0DL/P0DL.csproj"
+    },
+    "P0Model/1.0.0": {
+      "type": "project",
+      "path": "../P0Model/P0Model.csproj",
+      "msbuildProject": "../P0Model/P0Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "P0BL >= 1.0.0",
+      "P0DL >= 1.0.0",
+      "P0Model >= 1.0.0",
+      "Serilog >= 2.10.0",
+      "Serilog.Sinks.File >= 5.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\PSXSLHP185\\.nuget\\packages\\": {}
@@ -13,11 +145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PSXSLHP185\\Revature\\P0\\P0UI\\P0UI.csproj",
+      "projectUniqueName": "C:\\Users\\PSXSLHP185\\P0\\P0UI\\P0UI.csproj",
       "projectName": "P0UI",
-      "projectPath": "C:\\Users\\PSXSLHP185\\Revature\\P0\\P0UI\\P0UI.csproj",
+      "projectPath": "C:\\Users\\PSXSLHP185\\P0\\P0UI\\P0UI.csproj",
       "packagesPath": "C:\\Users\\PSXSLHP185\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PSXSLHP185\\Revature\\P0\\P0UI\\obj\\",
+      "outputPath": "C:\\Users\\PSXSLHP185\\P0\\P0UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PSXSLHP185\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +163,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\PSXSLHP185\\P0\\P0BL\\P0BL.csproj": {
+              "projectPath": "C:\\Users\\PSXSLHP185\\P0\\P0BL\\P0BL.csproj"
+            },
+            "C:\\Users\\PSXSLHP185\\P0\\P0DL\\P0DL.csproj": {
+              "projectPath": "C:\\Users\\PSXSLHP185\\P0\\P0DL\\P0DL.csproj"
+            },
+            "C:\\Users\\PSXSLHP185\\P0\\P0Model\\P0Model.csproj": {
+              "projectPath": "C:\\Users\\PSXSLHP185\\P0\\P0Model\\P0Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -43,6 +185,16 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Serilog": {
+            "target": "Package",
+            "version": "[2.10.0, )"
+          },
+          "Serilog.Sinks.File": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

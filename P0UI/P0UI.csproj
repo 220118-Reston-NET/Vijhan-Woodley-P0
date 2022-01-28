@@ -2,6 +2,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\P0Model\P0Model.csproj" />
+    <ProjectReference Include="..\P0DL\P0DL.csproj" />
+    <ProjectReference Include="..\P0BL\P0BL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
   </ItemGroup>
 
   <PropertyGroup>
