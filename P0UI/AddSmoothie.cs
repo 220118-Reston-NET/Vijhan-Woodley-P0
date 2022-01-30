@@ -52,7 +52,9 @@ public class AddSmoothie : IMenu
             {
                try 
             {
+                Log.Information("Saving smoothie \n" + _newSmoothie);
             _smoBL.AddSmoothie(_newSmoothie);
+            Log.Information("Successful at saving smoothie.");
             } catch (System.Exception exc)
             {
                 Console.WriteLine(exc.Message);
@@ -64,12 +66,15 @@ public class AddSmoothie : IMenu
             case "2":
             try 
             {
+            Log.Information("Saving smoothie \n" + _newSmoothie);
             _smoBL.AddSmoothie(_newSmoothie);
+            Log.Information("Successful at saving smoothie.");
             Console.WriteLine("Order saved");
             Console.ReadLine();
         
             } catch (System.Exception exc)
             {
+                Log.Warning("Failed to save smoothie due to reaching total capacity (5)");
                 Console.WriteLine(exc.Message);
                 Console.WriteLine("Press enter to continue");
                 Console.ReadLine();

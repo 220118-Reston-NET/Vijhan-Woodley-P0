@@ -20,6 +20,7 @@ string ans = menu.UserChoice();
 switch (ans)
 {
     case "ViewSmoothies":
+    Log.Information("Displaying Smoothie Information to the user");
     menu = new SmoCollection();
     break;
     case "SearchSmoothie":
@@ -27,12 +28,16 @@ switch (ans)
     menu = new SearchSmoothie(new SmoothieBL(new Repository()));
     break;
     case "AddSmoothie":
+    Log.Information("Displaying AddSmoothie Menu to the user");
     menu = new AddSmoothie(new SmoothieBL(new Repository()));
     break;
     case "Exit":
+    Log.Information("Exiting Application");
+    Log.CloseAndFlush();
     repeat = false;
     break;
     case "MainMenu":
+    Log.Information("Displaying MainMenu to user");
     menu = new MainMenu();
     break;
     default:
