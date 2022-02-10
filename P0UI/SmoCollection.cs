@@ -13,9 +13,9 @@ public class SmoCollection : IMenu
             SmoothieModel sm = new SmoothieModel(i);
             Console.WriteLine(sm.Name + " has an order number of " + i);
             Console.WriteLine(sm.Name + " contains the following ingredients.");
-            foreach (string item in sm.Ingredients)
+            foreach (Ingredients item in sm.Ingredients)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(item.Name);
             }
             Console.WriteLine();
             Console.WriteLine("++++++++++++++++++++++++++");

@@ -2,3 +2,216 @@
 2022-01-29 23:42:53.761 -08:00 [INF] Displaying AddSmoothie Menu to the user
 2022-01-29 23:42:59.301 -08:00 [INF] Displaying MainMenu to user
 2022-01-29 23:43:01.433 -08:00 [INF] Exiting Application
+2022-02-02 12:29:48.428 -08:00 [INF] Displaying Smoothie Information to the user
+2022-02-02 12:30:12.612 -08:00 [INF] Displaying MainMenu to user
+2022-02-02 12:30:14.513 -08:00 [INF] Exiting Application
+2022-02-02 15:47:23.272 -08:00 [INF] Displaying MainMenu to user
+2022-02-02 15:48:30.171 -08:00 [INF] Exiting Application
+2022-02-02 15:53:17.245 -08:00 [INF] Displaying MainMenu to user
+2022-02-02 15:53:19.480 -08:00 [INF] Exiting Application
+2022-02-03 11:23:26.750 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-03 11:42:05.402 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-03 12:42:52.905 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-03 17:17:33.615 -08:00 [INF] Displaying Smoothie Information to the user
+2022-02-03 17:18:34.165 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-03 17:21:39.448 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-03 17:22:20.318 -08:00 [INF] Displaying MainMenu to user
+2022-02-03 17:22:22.669 -08:00 [INF] Exiting Application
+2022-02-03 17:28:54.992 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-03 17:29:10.944 -08:00 [INF] Displaying MainMenu to user
+2022-02-03 17:29:12.779 -08:00 [INF] Exiting Application
+2022-02-05 19:26:20.894 -08:00 [INF] Adding customer P0Model.Customer
+2022-02-05 19:26:21.465 -08:00 [INF] Displaying MainMenu to user
+2022-02-05 19:26:27.262 -08:00 [INF] Exiting Application
+2022-02-06 15:37:55.786 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-06 15:41:10.287 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-06 15:41:12.692 -08:00 [INF] Displaying MainMenu to user
+2022-02-06 15:41:14.850 -08:00 [INF] Exiting Application
+2022-02-06 15:41:24.085 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-06 15:43:49.602 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-06 15:43:51.069 -08:00 [INF] Displaying MainMenu to user
+2022-02-06 15:43:52.424 -08:00 [INF] Exiting Application
+2022-02-06 15:44:00.951 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-06 15:49:56.290 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-06 15:49:58.040 -08:00 [INF] Displaying MainMenu to user
+2022-02-06 15:49:59.649 -08:00 [INF] Exiting Application
+2022-02-06 15:50:05.742 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 11:27:40.404 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 11:40:28.228 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 11:46:41.222 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 11:49:09.157 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 11:54:51.936 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 12:02:43.351 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 12:03:31.128 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : small
+Price : $5
+2022-02-07 12:03:45.563 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 12:03:48.529 -08:00 [INF] Exiting Application
+2022-02-07 13:17:25.595 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 13:17:59.932 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : small
+Price : $5
+2022-02-07 14:30:57.609 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 14:30:59.428 -08:00 [INF] Exiting Application
+2022-02-07 14:31:12.915 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 14:31:36.397 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-07 14:31:37.677 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 14:31:40.194 -08:00 [INF] Exiting Application
+2022-02-07 14:40:53.675 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 14:53:42.759 -08:00 [INF] Saving smoothie 
+Name : ProtienShake
+Cup size : small
+Price : $5
+2022-02-07 14:53:56.975 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 14:53:58.885 -08:00 [INF] Exiting Application
+2022-02-07 15:07:53.211 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 15:08:19.478 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : small
+Price : $5
+2022-02-07 15:08:19.543 -08:00 [INF] Successful at saving smoothie.
+2022-02-07 15:08:19.543 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 15:10:11.162 -08:00 [INF] Exiting Application
+2022-02-07 15:34:16.074 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-07 15:42:29.109 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-07 15:42:41.392 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 15:42:43.456 -08:00 [INF] Exiting Application
+2022-02-07 16:57:52.643 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 16:57:54.556 -08:00 [INF] Exiting Application
+2022-02-07 16:59:47.589 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 16:59:49.695 -08:00 [INF] Exiting Application
+2022-02-07 17:02:32.767 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 17:02:39.026 -08:00 [INF] Exiting Application
+2022-02-07 17:03:42.096 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 17:05:56.232 -08:00 [INF] Adding customer Name : layla
+Email : jada@gmail.com
+Age : 8 years old.
+2022-02-07 17:22:47.695 -08:00 [INF] Adding customer Name : kayla
+Email : jada@gmail.com
+Age : 21 years old.
+2022-02-07 17:22:58.764 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 17:23:15.490 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 17:23:37.103 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-07 17:23:44.890 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 17:23:48.047 -08:00 [INF] Exiting Application
+2022-02-07 18:02:59.933 -08:00 [INF] Displaying MainMenu to user
+2022-02-07 18:03:02.056 -08:00 [INF] Exiting Application
+2022-02-08 11:57:02.026 -08:00 [INF] Displaying Smoothie Information to the user
+2022-02-08 11:57:25.094 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 11:57:59.785 -08:00 [INF] Adding customer Name : Kayla
+Email : kayla@gmail.com
+Age : 23 years old.
+2022-02-08 11:58:00.621 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 11:58:13.992 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 11:59:03.144 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 11:59:17.973 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 11:59:40.350 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 11:59:48.020 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 12:00:17.009 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 12:03:41.542 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 12:03:44.943 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:03:46.737 -08:00 [INF] Exiting Application
+2022-02-08 12:03:58.514 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:04:20.512 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:05:51.095 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:07:41.223 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:08:02.549 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 12:08:48.100 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:12:17.431 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:13:52.458 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:15:25.936 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:16:09.704 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:21:49.992 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:24:17.305 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:30:03.559 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:30:26.349 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:30:36.046 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:31:04.895 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:31:14.094 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:31:26.598 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:32:05.479 -08:00 [INF] Exiting Application
+2022-02-08 12:32:15.752 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:34:18.939 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:40:20.081 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:40:28.791 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:40:30.264 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 12:40:40.497 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:40:56.116 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:42:53.086 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:43:23.508 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:47:47.009 -08:00 [INF] Exiting Application
+2022-02-08 12:50:22.973 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-08 12:51:22.339 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:51:42.286 -08:00 [INF] Exiting Application
+2022-02-08 12:58:37.058 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 12:58:59.638 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-08 12:58:59.687 -08:00 [INF] Successful at saving smoothie.
+2022-02-08 12:58:59.688 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:59:26.391 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 12:59:29.223 -08:00 [INF] Exiting Application
+2022-02-08 15:39:14.711 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 15:39:57.583 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : medium
+Price : $6.5
+2022-02-08 15:41:53.917 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 15:41:56.227 -08:00 [INF] Exiting Application
+2022-02-08 15:42:03.968 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 15:42:19.870 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : small
+Price : $5
+2022-02-08 15:43:57.024 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 15:43:58.523 -08:00 [INF] Exiting Application
+2022-02-08 15:44:16.710 -08:00 [INF] Exiting Application
+2022-02-08 15:45:12.951 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 15:45:45.332 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : small
+Price : $5
+2022-02-08 15:45:45.412 -08:00 [INF] Successful at saving smoothie.
+2022-02-08 15:45:45.412 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 15:45:50.479 -08:00 [INF] Exiting Application
+2022-02-08 16:01:08.436 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 16:01:48.610 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : large
+Price : $7
+2022-02-08 16:01:48.711 -08:00 [INF] Successful at saving smoothie.
+2022-02-08 16:01:48.711 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 16:02:23.370 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 16:02:49.755 -08:00 [INF] Saving smoothie 
+Name : CoconutFusion
+Cup size : medium
+Price : $6.5
+2022-02-08 16:02:49.856 -08:00 [INF] Successful at saving smoothie.
+2022-02-08 16:02:49.856 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 16:02:54.131 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-08 16:03:09.537 -08:00 [INF] Saving smoothie 
+Name : ProtienShake
+Cup size : small
+Price : $5
+2022-02-08 16:04:53.371 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 16:04:55.888 -08:00 [INF] Exiting Application
+2022-02-08 16:58:51.964 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 16:58:56.626 -08:00 [INF] Exiting Application
+2022-02-08 16:59:44.208 -08:00 [INF] Displaying MainMenu to user
+2022-02-08 16:59:48.608 -08:00 [INF] Exiting Application
+2022-02-09 15:35:58.643 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-09 15:36:58.489 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-09 15:36:58.575 -08:00 [INF] Successful at saving smoothie.
+2022-02-09 15:36:58.576 -08:00 [INF] Displaying MainMenu to user
+2022-02-09 15:37:56.529 -08:00 [INF] Displaying MainMenu to user
+2022-02-09 15:40:00.031 -08:00 [INF] Displaying MainMenu to user
+2022-02-09 15:40:05.768 -08:00 [INF] Exiting Application

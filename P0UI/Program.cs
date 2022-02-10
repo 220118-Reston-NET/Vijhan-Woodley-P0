@@ -4,10 +4,18 @@ using P0Model;
 using P0DL;
 using P0BL;
 using P0UI;
+using Microsoft.Extensions.Configuration;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.File("./logs/user.txt")
     .CreateLogger();
+
+    var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json")
+    .Build();
+
+    string _connectionStrings = configuration.GetConnectionString("Reference2DB");
 
 bool repeat = true;
 IMenu menu = new MainMenu();
@@ -23,23 +31,39 @@ switch (ans)
     Log.Information("Displaying Smoothie Information to the user");
     menu = new SmoCollection();
     break;
-    case "SearchSmoothie":
+    case "SearchCustomer":
     Log.Information("Displaying SearchSmoothie Menu to the user");
-    menu = new SearchSmoothie(new SmoothieBL(new Repository()));
+    menu = new SearchCustomer(new CustomerBL(new CRepository(_connectionStrings)));
     break;
+
     case "AddSmoothie":
     Log.Information("Displaying AddSmoothie Menu to the user");
-    menu = new AddSmoothie(new SmoothieBL(new Repository()));
+    menu = new AddSmoothie(new CustomerBL(new CRepository(_connectionStrings)), new SmoothieBL(new Repository(_connectionStrings)));
     break;
+
+    case "CustomerInfo":
+    menu = new CustomerInfo(new CustomerBL(new CRepository(_connectionStrings)));
+    break;
+
+    case "ViewOrderHistory":
+    menu = new ViewOrderHistory(new CustomerBL(new CRepository(_connectionStrings)));
+    break;
+
+    case "ViewStoreInventory":
+    menu = new ViewStoreInventory(new SmoothieBL(new Repository(_connectionStrings)));
+    break;
+
     case "Exit":
     Log.Information("Exiting Application");
     Log.CloseAndFlush();
     repeat = false;
     break;
+
     case "MainMenu":
     Log.Information("Displaying MainMenu to user");
     menu = new MainMenu();
     break;
+
     default:
     Console.WriteLine("Please enter valid response.");
     Console.WriteLine("Press Enter to continue");

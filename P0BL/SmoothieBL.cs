@@ -11,18 +11,26 @@ public SmoothieBL(IRepository p_repo)
     _repo = p_repo;
 }
 
-        public SmoothieModel AddSmoothie(SmoothieModel _smoothie)
+        public void AddInventory(int _proID)
         {
+            _repo.AddInventory(_proID);
+        }
+
+        public SmoothieModel AddSmoothie(SmoothieModel _smoothie, int productID)
+        {
+            List<Product> ProductList = _repo.GetAllProduct();
+            Console.WriteLine("The quantatity is " + ProductList[0].Quantity);
+            int quantity = ProductList[productID - 1].Quantity;
             
             List<SmoothieModel> listOfSmoothies = _repo.GetAllSmoothie();
-            if (listOfSmoothies.Count < 5)
+            if (quantity < 1)
             {
-                return _repo.AddSmoothie(_smoothie);
+                throw new Exception("No more inventory. Cannot order smoothie.");
             } else
             {
-                throw new Exception("You cannot save more than 5 smoothies");
+                return _repo.AddSmoothie(_smoothie);
             }
-            return _repo.AddSmoothie(_smoothie);
+            //return _repo.AddSmoothie(_smoothie);
         }
 
         public List<SmoothieModel> SearchSmoothie(string s_name)
@@ -44,5 +52,18 @@ public SmoothieBL(IRepository p_repo)
             return SmoothieFound;
         }
 
-}
+        public void SubtractInventory(int _proID)
+        {
+            _repo.SubtractInventory(_proID);
+        }
+
+        public void ViewInventory(int _proID)
+        {
+            List<Product> ProductList = _repo.GetAllProduct();
+
+            int quantity = ProductList[_proID - 1].Quantity;
+
+            Console.WriteLine("The inventory for this store is " + quantity);
+        }
+    }
 }

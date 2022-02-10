@@ -2,7 +2,13 @@
 public class SmoothieModel
 {
 
+
+public int SmoID { get; set; }
 public string Name { get; set; }
+
+public int fcustomer { get; set; }
+
+public int fstore { get; set; }
 
 private int _comboNumb;
 public int ComboNumb
@@ -10,6 +16,14 @@ public int ComboNumb
     get { return _comboNumb; }
     set { _comboNumb = value; }
 }
+
+private List<Product> _product;
+public List<Product> Product
+{
+    get { return _product; }
+    set { _product = value; }
+}
+
 
 
 private string _cupSize;
@@ -20,8 +34,8 @@ public string CupSize
 }
 
 
-private List<string> _ingredients;
-public List<string> Ingredients
+private List<Ingredients> _ingredients;
+public List<Ingredients> Ingredients
 {   
     get { return _ingredients; }
     set { _ingredients = value; }
@@ -42,53 +56,139 @@ public SmoothieModel(int ComboNumb)
 {
     
     this._comboNumb = ComboNumb;
-    _ingredients = new List<string>();
+
+    _ingredients = new List<Ingredients>();
+    Ingredients Coconut = new Ingredients("Coconut");
+    Ingredients Banana = new Ingredients("Banana");
+    Ingredients Spinach = new Ingredients("Spinach");
+    Ingredients Pinapple = new Ingredients("Pinapple");
+    Ingredients CoconutWater = new Ingredients("Coconut Water");
+    Ingredients Strawberry = new Ingredients("Strawberry");
+    Ingredients Blueberry = new Ingredients("Blueberry");
+    Ingredients Raspberry = new Ingredients("Raspberry");
+    Ingredients Almondmilk = new Ingredients("Almondmilk");
+    Ingredients Mango = new Ingredients("Mango");
+    Ingredients PassionFruit = new Ingredients("Passion Fruit");
+    Ingredients ChocolatePowder = new Ingredients("Chocolate Powder");
+    Ingredients ProtienPowder = new Ingredients("Protien Powder");
+    
 switch (ComboNumb)
 {
     case 1 : 
     Name = "CoconutFusion";
     
     
-     _ingredients.Add("Coconut");
-     _ingredients.Add("Banana");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Pinapple");
-     _ingredients.Add("Coconut Water");
+     _ingredients.Add(Coconut);
+     _ingredients.Add(Banana);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(Pinapple);
+     _ingredients.Add(CoconutWater);
     break;
     case 2 : 
     Name = "VeryBerry";
     
     
-     _ingredients.Add("Strawberry");
-     _ingredients.Add("Blueberry");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Raspberry");
-     _ingredients.Add("Almondmilk");
+     _ingredients.Add(Strawberry);
+     _ingredients.Add(Blueberry);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(Raspberry);
+     _ingredients.Add(Almondmilk);
     break;
     case 3 : 
     Name = "TropicalBreeze";
     
     
-     _ingredients.Add("Mango");
-     _ingredients.Add("Passion Fruit");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Pinapple");
-     _ingredients.Add("Coconut Water");
+     _ingredients.Add(Mango);
+     _ingredients.Add(PassionFruit);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(Pinapple);
+     _ingredients.Add(CoconutWater);
     break;
     case 4 : 
     Name = "ProtienShake";
     
     
-     _ingredients.Add("Chocolate Powder");
-     _ingredients.Add("Banana");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Protien Powder");
-     _ingredients.Add("Almond Milk");
+     _ingredients.Add(ChocolatePowder);
+     _ingredients.Add(Banana);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(ProtienPowder);
+     _ingredients.Add(Almondmilk);
     break;
     default:
     throw new Exception("Choose combo number from 1 - 4.");
     //break;
 }
+
+}
+
+public SmoothieModel(int ComboNumb, string Cupsize)
+{
+    Product _pro = new Product(Cupsize);
+    Price = _pro.Price;
+    this.CupSize = _pro.CupSize;
+    this.ComboNumb = ComboNumb;
+    _ingredients = new List<Ingredients>();
+Ingredients Coconut = new Ingredients("Coconut");
+    Ingredients Banana = new Ingredients("Banana");
+    Ingredients Spinach = new Ingredients("Spinach");
+    Ingredients Pinapple = new Ingredients("Pinapple");
+    Ingredients CoconutWater = new Ingredients("Coconut Water");
+    Ingredients Strawberry = new Ingredients("Strawberry");
+    Ingredients Blueberry = new Ingredients("Blueberry");
+    Ingredients Raspberry = new Ingredients("Raspberry");
+    Ingredients Almondmilk = new Ingredients("Almondmilk");
+    Ingredients Mango = new Ingredients("Mango");
+    Ingredients PassionFruit = new Ingredients("Passion Fruit");
+    Ingredients ChocolatePowder = new Ingredients("Chocolate Powder");
+    Ingredients ProtienPowder = new Ingredients("Protien Powder");
+    
+switch (ComboNumb)
+{
+    case 1 : 
+    Name = "CoconutFusion";
+    
+    
+     _ingredients.Add(Coconut);
+     _ingredients.Add(Banana);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(Pinapple);
+     _ingredients.Add(CoconutWater);
+    break;
+    case 2 : 
+    Name = "VeryBerry";
+    
+    
+     _ingredients.Add(Strawberry);
+     _ingredients.Add(Blueberry);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(Raspberry);
+     _ingredients.Add(Almondmilk);
+    break;
+    case 3 : 
+    Name = "TropicalBreeze";
+    
+    
+     _ingredients.Add(Mango);
+     _ingredients.Add(PassionFruit);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(Pinapple);
+     _ingredients.Add(CoconutWater);
+    break;
+    case 4 : 
+    Name = "ProtienShake";
+    
+    
+     _ingredients.Add(ChocolatePowder);
+     _ingredients.Add(Banana);
+     _ingredients.Add(Spinach);
+     _ingredients.Add(ProtienPowder);
+     _ingredients.Add(Almondmilk);
+    break;
+    default:
+    throw new Exception("Choose combo number from 1 - 4.");
+    //break;
+}
+
 /*if(string.Equals(CupSize, "small", StringComparison.CurrentCultureIgnoreCase))
 {
     Price = 5.00;
@@ -104,78 +204,14 @@ switch (ComboNumb)
 }*/
 }
 
-public SmoothieModel(int ComboNumb, string Cupsize)
-{
-    this.CupSize = Cupsize;
-    this.ComboNumb = ComboNumb;
-    _ingredients = new List<string>();
-switch (ComboNumb)
-{
-    case 1 : 
-    Name = "CoconutFusion";
-    
-    
-     _ingredients.Add("Coconut");
-     _ingredients.Add("Banana");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Pinapple");
-     _ingredients.Add("Coconut Water");
-    break;
-    case 2 : 
-    Name = "VeryBerry";
-    
-    
-     _ingredients.Add("Strawberry");
-     _ingredients.Add("Blueberry");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Raspberry");
-     _ingredients.Add("Almondmilk");
-    break;
-    case 3 : 
-    Name = "TropicalBreeze";
-    
-    
-     _ingredients.Add("Mango");
-     _ingredients.Add("Passion Fruit");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Pinapple");
-     _ingredients.Add("Coconut Water");
-    break;
-    case 4 : 
-    Name = "ProtienShake";
-    
-    
-     _ingredients.Add("Chocolate Powder");
-     _ingredients.Add("Banana");
-     _ingredients.Add("Spinach");
-     _ingredients.Add("Protien Powder");
-     _ingredients.Add("Almond Milk");
-    break;
-    default:
-    throw new Exception("Choose combo number from 1 - 4.");
-    //break;
-}
-if(string.Equals(CupSize, "small", StringComparison.CurrentCultureIgnoreCase))
-{
-    Price = 5.00;
-} else if (string.Equals(CupSize, "medium", StringComparison.CurrentCultureIgnoreCase))
-{
-    Price = 6.50;
-} else if (string.Equals(CupSize, "large", StringComparison.CurrentCultureIgnoreCase))
-{
-    Price = 7.00;
-} else 
-{
-    throw new Exception("Cupsize can be small, medium or large");
-}
-}
-
 public SmoothieModel(string Cupsize)
 {
-    this.CupSize = Cupsize;
-    if(string.Equals(CupSize, "small", StringComparison.CurrentCultureIgnoreCase))
+    
+    Product _pro = new Product(Cupsize);
+    Price = _pro.Price;
+   /* if(string.Equals(_pro.CupSize, "small", StringComparison.CurrentCultureIgnoreCase))
 {
-    Price = 5.00;
+        Price = _pro.Price;
 } else if (string.Equals(CupSize, "medium", StringComparison.CurrentCultureIgnoreCase))
 {
     Price = 6.50;
@@ -185,7 +221,7 @@ public SmoothieModel(string Cupsize)
 } else 
 {
     throw new Exception("Cupsize can be small, medium or large");
-}
+}*/
 }
 
 public override string ToString()

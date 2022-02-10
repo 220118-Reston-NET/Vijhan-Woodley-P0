@@ -11,4 +11,10 @@ public interface IRepository
 SmoothieModel AddSmoothie(SmoothieModel _smoothie);
 
 List<SmoothieModel> GetAllSmoothie();
+
+List<Product> GetAllProduct();
+
+void AddInventory(int _proID);
+
+void SubtractInventory(int _proID);
 }

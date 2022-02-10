@@ -8,8 +8,13 @@ public interface ISmoothieBL
 /// </summary>
 /// <param name="_smoothie"></param>
 /// <returns></returns>
-SmoothieModel AddSmoothie(SmoothieModel _smoothie);
+SmoothieModel AddSmoothie(SmoothieModel _smoothie, int productID);
 
 List<SmoothieModel> SearchSmoothie(string s_name);
 
+void ViewInventory(int _proID);
+
+void AddInventory(int _proID);
+
+void SubtractInventory(int _proID);
 }

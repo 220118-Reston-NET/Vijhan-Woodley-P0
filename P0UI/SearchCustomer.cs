@@ -4,17 +4,18 @@ using P0Model;
 namespace P0UI
 {
 
-    public class SearchSmoothie : IMenu
+    public class SearchCustomer : IMenu
     {
-        private ISmoothieBL _smoBL;
-        public SearchSmoothie(ISmoothieBL _smoth)
+        private ICustomerBL _cusBL;
+        List<Customer> ListOfCustomer = new List<Customer>();
+        public SearchCustomer(ICustomerBL c_cusBL)
         {
-            _smoBL = _smoth;
+            _cusBL = c_cusBL;
         }
 
         public void Display()
         {
-           Console.WriteLine("Type [1] to search by name of smoothie.");
+           Console.WriteLine("Type [1] to search for a customer.");
            Console.WriteLine("Type [2] to return to main menu.");
         }
 
@@ -26,11 +27,22 @@ namespace P0UI
             switch(userInput)
             {
                 case "1":
-                Console.WriteLine("Type the name of the smoothie to search.");
+                Console.WriteLine("Type the name of the Customer to search.");
                 string name = Console.ReadLine();
-
-                List<SmoothieModel> ListOfSmoothie = _smoBL.SearchSmoothie(name);
-                foreach (SmoothieModel item in ListOfSmoothie)
+                try
+                {
+                    ListOfCustomer = _cusBL.SearchCustomer(name);
+                }
+                catch (System.Exception exe)
+                {
+                    Console.WriteLine(exe.Message);
+                    Console.WriteLine("Please press Enter to continue");
+                    Console.ReadLine();
+                    return "SearchSmoothie";
+                    
+                }
+                
+                foreach (Customer item in ListOfCustomer)
                 {
                     Console.WriteLine("================");
                     Console.WriteLine(item); 
