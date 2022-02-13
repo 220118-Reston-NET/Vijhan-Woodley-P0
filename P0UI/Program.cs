@@ -42,14 +42,17 @@ switch (ans)
     break;
 
     case "CustomerInfo":
+    Log.Information("Displaying add Customer Info Menu to the user");
     menu = new CustomerInfo(new CustomerBL(new CRepository(_connectionStrings)));
     break;
 
     case "ViewOrderHistory":
+    Log.Information("Displaying order history menu to the user");
     menu = new ViewOrderHistory(new CustomerBL(new CRepository(_connectionStrings)));
     break;
 
     case "ViewStoreInventory":
+    Log.Information("Displaying view store inventory to the user");
     menu = new ViewStoreInventory(new SmoothieBL(new Repository(_connectionStrings)));
     break;
 

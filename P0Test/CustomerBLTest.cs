@@ -40,5 +40,38 @@ namespace P0Test
             Assert.Equal(ExpectedCustList[0].Email, actualCustList[0].Email);
 
         }
+        [Fact]
+        public void should_get_all_orders()
+        {
+            //Arrange
+            int Id = 5;
+            double totalPrice1 = 10;
+
+            Orders order = new Orders()
+            {
+                OrderID = Id,
+                totalPrice = totalPrice1
+            };
+
+            List<Orders> expectedList = new List<Orders>();
+            expectedList.Add(order);
+
+            Mock<ICRepository> mockRepo = new Mock<ICRepository>();
+
+            mockRepo.Setup(repo => repo.GetAllOrders()).Returns(expectedList);
+
+            ICustomerBL cusBL = new CustomerBL(mockRepo.Object);
+
+            //Act
+            List<Orders> actualList = cusBL.GetAllOrders();
+
+            //Assert
+            Assert.Same(expectedList, actualList);
+            Assert.Equal(expectedList[0].OrderID, actualList[0].OrderID);
+            Assert.Equal(expectedList[0].totalPrice, actualList[0].totalPrice);
+
+        }
+
+
     }
 }

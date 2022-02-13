@@ -19,7 +19,7 @@ public SmoothieBL(IRepository p_repo)
         public SmoothieModel AddSmoothie(SmoothieModel _smoothie, int productID)
         {
             List<Product> ProductList = _repo.GetAllProduct();
-            Console.WriteLine("The quantatity is " + ProductList[0].Quantity);
+           // Console.WriteLine("The quantatity is " + ProductList[0].Quantity);
             int quantity = ProductList[productID - 1].Quantity;
             
             List<SmoothieModel> listOfSmoothies = _repo.GetAllSmoothie();

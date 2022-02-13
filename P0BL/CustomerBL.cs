@@ -27,9 +27,49 @@ namespace P0BL
             return _crepo.AddCustomer(c_customer);
         }
 
+        public Orders AddOrder(Orders o_order)
+        {
+            return _crepo.AddOrder(o_order);
+        }
+
+        public void AlterOrderPrice(int _orderID, double _totalPrice)
+        {
+           _crepo.AlterOrderPrice(_orderID, _totalPrice);
+        }
+
+        public void DeleteOrder()
+        {
+            _crepo.DeleteOrder();
+        }
+
         public List<Customer> GetAllCustomers()
         {
             return _crepo.GetAllCustomers();
+        }
+
+        public List<Orders> GetAllOrders()
+        {
+           return _crepo.GetAllOrders();
+        }
+
+        public List<Orders> GetAllOrdersByCustomer(int c_cusID)
+        {
+            return _crepo.GetAllOrdersByCustomer(c_cusID);
+        }
+
+        public List<Orders> GetAllOrdersByStore(int s_storeID)
+        {
+            return _crepo.GetAllOrdersByStore(s_storeID);
+        }
+
+        public List<SmoothieModel> GetOrderByCustomer(int o_orderID)
+        {
+            return _crepo.GetOrderByCustomer(o_orderID);
+        }
+
+        public Orders GetOrderbyPrice()
+        {
+            return _crepo.GetOrderbyPrice();
         }
 
         public List<SmoothieModel> GetSmoothieByCustomer(int c_cusID)

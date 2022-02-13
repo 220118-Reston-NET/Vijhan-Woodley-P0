@@ -33,7 +33,7 @@ namespace P0DL {
 
         public SmoothieModel AddSmoothie(SmoothieModel _smoothie)
         {
-            string SQLQuery = @"insert into SmoothieModel values(@Name, @ComboNumb, @CupSize, @Price, @fcustomer, @fstore)";
+            string SQLQuery = @"insert into SmoothieModel values(@Name, @ComboNumb, @CupSize, @Price, @fcustomer, @fstore, @forder)";
 
             using(SqlConnection con = new SqlConnection(_connectionStrings))
             {
@@ -46,6 +46,7 @@ namespace P0DL {
                 command.Parameters.AddWithValue("@Price", _smoothie.Price);
                 command.Parameters.AddWithValue("@fcustomer", _smoothie.fcustomer);
                 command.Parameters.AddWithValue("@fstore", _smoothie.fstore);
+                command.Parameters.AddWithValue("@forder", _smoothie.forder);
 
                 command.ExecuteNonQuery();
             }
@@ -111,7 +112,8 @@ namespace P0DL {
                         CupSize = reader.GetString(3),
                         Price = reader.GetDouble(4),
                         fcustomer = reader.GetInt32(5),
-                        fstore = reader.GetInt32(6)
+                        fstore = reader.GetInt32(6),
+                        forder = reader.GetInt32(7)
                     });
                 }
             }

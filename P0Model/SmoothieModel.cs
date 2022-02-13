@@ -10,6 +10,8 @@ public int fcustomer { get; set; }
 
 public int fstore { get; set; }
 
+public int forder { get; set; }
+
 private int _comboNumb;
 public int ComboNumb
 {

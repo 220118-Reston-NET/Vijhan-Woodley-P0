@@ -40,32 +40,52 @@ namespace P0UI
                     Console.ReadLine();
                     return "ViewOrderHistory";
                 }
-               // _customer = _cusBL.SearchSpecificCustomer(_email);
-                List<SmoothieModel> SmoothieList = _cusBL.GetSmoothieByCustomer(_customer.cusID);
-
-                foreach (SmoothieModel item in SmoothieList)
+               List<Orders> OrdersList = _cusBL.GetAllOrdersByCustomer(_customer.cusID);
+               Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+               foreach (Orders order in OrdersList)
+               {
+                   
+                   Console.WriteLine("Order: " + order.OrderID + "  Total Price: $" + order.totalPrice);
+                   Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+                   List<SmoothieModel> SmoothieList = _cusBL.GetOrderByCustomer(order.OrderID);
+                   foreach (SmoothieModel item in SmoothieList)
                 {
                     Console.WriteLine();
-                    Console.WriteLine("+++++++++++++++++++++++++++++++++");
+                    Console.WriteLine("--------------------------------");
                     Console.WriteLine(item);
-                    Console.WriteLine("+++++++++++++++++++++++++++++++++");
+                    Console.WriteLine("--------------------------------");
 
                 }
+                Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+               }
+
+                
                 Console.WriteLine("Please press Enter to continue");
                 Console.ReadLine();
                 return "ViewOrderHistory";
+                
                 case "2":
                 Console.WriteLine("Here are the orders for SmoothieShackBronx");
 
-                List<SmoothieModel> SmoothieLists = _cusBL.GetSmoothieByStore(1);
-                foreach (SmoothieModel item in SmoothieLists)
+                OrdersList = _cusBL.GetAllOrdersByStore(1);
+               Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+               foreach (Orders order in OrdersList)
+               {
+                   
+                   Console.WriteLine("Order: " + order.OrderID + "  Total Price: $" + order.totalPrice);
+                   Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+                   List<SmoothieModel> SmoothieList = _cusBL.GetOrderByCustomer(order.OrderID);
+                   foreach (SmoothieModel item in SmoothieList)
                 {
                     Console.WriteLine();
-                    Console.WriteLine("+++++++++++++++++++++++++++++++++");
+                    Console.WriteLine("--------------------------------");
                     Console.WriteLine(item);
-                    Console.WriteLine("+++++++++++++++++++++++++++++++++");
+                    Console.WriteLine("--------------------------------");
 
                 }
+                 Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+               }
+               
                 Console.WriteLine("Please press Enter to continue");
                 Console.ReadLine();
 
@@ -73,15 +93,24 @@ namespace P0UI
                 case "3":
                 Console.WriteLine("Here are the orders for SmoothieShackMan");
 
-                List<SmoothieModel> SmoothieListss = _cusBL.GetSmoothieByStore(2);
-                foreach (SmoothieModel item in SmoothieListss)
+                 OrdersList = _cusBL.GetAllOrdersByStore(2);
+               Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+               foreach (Orders order in OrdersList)
+               {
+                   
+                   Console.WriteLine("Order: " + order.OrderID + "  Total Price: $" + order.totalPrice);
+                   Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+                   List<SmoothieModel> SmoothieList = _cusBL.GetOrderByCustomer(order.OrderID);
+                   foreach (SmoothieModel item in SmoothieList)
                 {
                     Console.WriteLine();
-                    Console.WriteLine("+++++++++++++++++++++++++++++++++");
+                    Console.WriteLine("--------------------------------");
                     Console.WriteLine(item);
-                    Console.WriteLine("+++++++++++++++++++++++++++++++++");
+                    Console.WriteLine("--------------------------------");
 
                 }
+                 Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
+               }
                 Console.WriteLine("Please press Enter to continue");
                 Console.ReadLine();
                 return "ViewOrderHistory";

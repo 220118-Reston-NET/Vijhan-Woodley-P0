@@ -215,3 +215,153 @@ Price : $6.5
 2022-02-09 15:37:56.529 -08:00 [INF] Displaying MainMenu to user
 2022-02-09 15:40:00.031 -08:00 [INF] Displaying MainMenu to user
 2022-02-09 15:40:05.768 -08:00 [INF] Exiting Application
+2022-02-10 14:59:17.807 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 15:03:19.752 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 15:06:40.277 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 15:08:31.199 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 15:15:32.570 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 15:16:42.118 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 15:20:12.285 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 15:20:38.265 -08:00 [INF] Saving smoothie 
+Name : CoconutFusion
+Cup size : small
+Price : $5
+2022-02-10 15:23:18.234 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 16:26:32.166 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 16:35:03.998 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 16:39:51.234 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 17:38:02.375 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 17:40:50.926 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 17:46:07.582 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 17:50:10.390 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 17:55:46.402 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 17:56:34.686 -08:00 [INF] Displaying MainMenu to user
+2022-02-10 17:57:36.333 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 17:59:08.799 -08:00 [INF] Displaying MainMenu to user
+2022-02-10 17:59:18.751 -08:00 [INF] Exiting Application
+2022-02-10 21:58:54.247 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 21:59:11.867 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : small
+Price : $5
+2022-02-10 21:59:11.959 -08:00 [INF] Successful at saving smoothie.
+2022-02-10 21:59:18.039 -08:00 [INF] Displaying MainMenu to user
+2022-02-10 21:59:19.876 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 21:59:37.269 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : large
+Price : $7
+2022-02-10 21:59:37.337 -08:00 [INF] Successful at saving smoothie.
+2022-02-10 21:59:48.327 -08:00 [INF] Saving smoothie 
+Name : ProtienShake
+Cup size : medium
+Price : $6.5
+2022-02-10 21:59:48.403 -08:00 [INF] Successful at saving smoothie.
+2022-02-10 22:01:15.155 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 22:01:34.410 -08:00 [INF] Saving smoothie 
+Name : CoconutFusion
+Cup size : medium
+Price : $6.5
+2022-02-10 22:16:30.074 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 22:16:57.755 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-10 22:18:02.652 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 22:18:27.236 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : small
+Price : $5
+2022-02-10 22:18:29.106 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 22:18:36.594 -08:00 [INF] Displaying MainMenu to user
+2022-02-10 22:19:00.185 -08:00 [INF] Displaying MainMenu to user
+2022-02-10 22:19:01.634 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-10 22:19:20.599 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : medium
+Price : $6.5
+2022-02-10 22:19:20.681 -08:00 [INF] Successful at saving smoothie.
+2022-02-10 22:19:25.736 -08:00 [INF] Displaying MainMenu to user
+2022-02-10 22:19:27.680 -08:00 [INF] Exiting Application
+2022-02-11 13:38:35.615 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-11 13:38:40.407 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 13:45:44.286 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 13:45:46.031 -08:00 [INF] Exiting Application
+2022-02-11 14:32:42.915 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 14:32:44.106 -08:00 [INF] Exiting Application
+2022-02-11 14:34:10.235 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 14:34:12.348 -08:00 [INF] Exiting Application
+2022-02-11 14:36:30.955 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 14:36:33.756 -08:00 [INF] Exiting Application
+2022-02-11 14:53:42.228 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 14:53:44.484 -08:00 [INF] Exiting Application
+2022-02-11 16:18:39.733 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 16:18:41.720 -08:00 [INF] Exiting Application
+2022-02-11 16:19:28.327 -08:00 [INF] Displaying MainMenu to user
+2022-02-11 16:19:30.315 -08:00 [INF] Exiting Application
+2022-02-12 19:05:22.428 -08:00 [INF] Displaying Smoothie Information to the user
+2022-02-12 19:06:41.567 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-12 19:08:50.051 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-12 19:08:52.777 -08:00 [INF] Displaying MainMenu to user
+2022-02-12 19:36:55.942 -08:00 [INF] Exiting Application
+2022-02-13 10:44:56.057 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:45:27.412 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-13 10:45:27.500 -08:00 [INF] Successful at saving smoothie.
+2022-02-13 10:45:31.112 -08:00 [INF] Saving order at bronx location 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-13 10:45:31.112 -08:00 [INF] Successful at saving Order.
+2022-02-13 10:45:32.970 -08:00 [INF] Displaying MainMenu to user
+2022-02-13 10:45:36.980 -08:00 [INF] Displaying order history menu to the user
+2022-02-13 10:46:00.980 -08:00 [INF] Displaying order history menu to the user
+2022-02-13 10:46:03.126 -08:00 [INF] Displaying MainMenu to user
+2022-02-13 10:46:10.791 -08:00 [INF] Exiting Application
+2022-02-13 10:46:40.237 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:46:50.931 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:47:43.010 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:47:49.536 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:53:06.581 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:53:29.313 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:55:13.153 -08:00 [INF] Displaying MainMenu to user
+2022-02-13 10:55:19.690 -08:00 [INF] Exiting Application
+2022-02-13 10:55:26.660 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:55:48.363 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-13 10:58:40.048 -08:00 [INF] Saving smoothie 
+Name : ProtienShake
+Cup size : large
+Price : $7
+2022-02-13 10:58:40.166 -08:00 [INF] Successful at saving smoothie.
+2022-02-13 10:59:02.177 -08:00 [INF] Saving smoothie 
+Name : CoconutFusion
+Cup size : large
+Price : $7
+2022-02-13 10:59:02.280 -08:00 [INF] Successful at saving smoothie.
+2022-02-13 10:59:15.407 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : small
+Price : $5
+2022-02-13 10:59:15.481 -08:00 [INF] Successful at saving smoothie.
+2022-02-13 10:59:19.151 -08:00 [INF] Saving order at Manhatten location 
+Name : TropicalBreeze
+Cup size : small
+Price : $5
+2022-02-13 10:59:19.151 -08:00 [INF] Successful at saving Order.
+2022-02-13 10:59:21.735 -08:00 [INF] Displaying MainMenu to user
+2022-02-13 10:59:29.928 -08:00 [INF] Displaying order history menu to the user
+2022-02-13 10:59:42.541 -08:00 [INF] Displaying order history menu to the user
+2022-02-13 10:59:44.725 -08:00 [INF] Displaying MainMenu to user
+2022-02-13 11:00:25.868 -08:00 [INF] Exiting Application
+2022-02-13 11:00:45.273 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-13 11:01:04.058 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-13 11:01:16.828 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-13 11:01:52.438 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-13 11:02:05.666 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-13 11:02:11.597 -08:00 [INF] Adding customer Name : larry
+Email : larry@gmail.com
+Age : 32 years old.
+2022-02-13 11:02:12.248 -08:00 [INF] Displaying MainMenu to user
+2022-02-13 11:02:40.962 -08:00 [INF] Exiting Application
