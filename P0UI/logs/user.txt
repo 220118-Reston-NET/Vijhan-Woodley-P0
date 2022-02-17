@@ -365,3 +365,149 @@ Email : larry@gmail.com
 Age : 32 years old.
 2022-02-13 11:02:12.248 -08:00 [INF] Displaying MainMenu to user
 2022-02-13 11:02:40.962 -08:00 [INF] Exiting Application
+2022-02-14 14:56:56.726 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-14 14:57:11.453 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 14:57:43.140 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-14 14:58:03.175 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 14:59:09.982 -08:00 [INF] Displaying order history menu to the user
+2022-02-14 14:59:13.484 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 14:59:15.886 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 14:59:20.293 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 14:59:32.195 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 14:59:43.532 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 14:59:47.685 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 15:00:15.425 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-14 15:00:33.575 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : large
+Price : $7
+2022-02-14 15:00:33.643 -08:00 [INF] Successful at saving smoothie.
+2022-02-14 15:00:51.804 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-14 15:00:51.925 -08:00 [INF] Successful at saving smoothie.
+2022-02-14 15:00:56.437 -08:00 [INF] Saving order at Manhatten location 
+Name : TropicalBreeze
+Cup size : medium
+Price : $6.5
+2022-02-14 15:00:56.438 -08:00 [INF] Successful at saving Order.
+2022-02-14 15:00:59.888 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 15:01:24.097 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 15:01:47.572 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 15:01:50.596 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 15:02:17.415 -08:00 [INF] Displaying order history menu to the user
+2022-02-14 15:02:57.123 -08:00 [INF] Displaying order history menu to the user
+2022-02-14 15:03:23.369 -08:00 [INF] Displaying order history menu to the user
+2022-02-14 15:03:25.344 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 15:07:41.761 -08:00 [INF] Exiting Application
+2022-02-14 17:15:52.871 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-14 17:16:07.951 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-14 17:16:13.744 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-14 17:16:28.303 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-14 17:16:35.151 -08:00 [INF] Adding customer Name : john
+Email : john@gmail.com
+Age : 87 years old.
+2022-02-14 17:16:35.920 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 17:16:45.181 -08:00 [INF] Displaying SearchSmoothie Menu to the user
+2022-02-14 17:16:56.981 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 17:17:05.250 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 17:17:20.896 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 17:17:25.115 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 17:17:36.586 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-14 17:18:37.884 -08:00 [INF] Saving smoothie 
+Name : CoconutFusion
+Cup size : large
+Price : $7
+2022-02-14 17:18:37.960 -08:00 [INF] Successful at saving smoothie.
+2022-02-14 17:19:00.513 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : medium
+Price : $6.5
+2022-02-14 17:19:00.590 -08:00 [INF] Successful at saving smoothie.
+2022-02-14 17:19:02.943 -08:00 [INF] Saving order at Manhatten location 
+Name : VeryBerry
+Cup size : medium
+Price : $6.5
+2022-02-14 17:19:02.944 -08:00 [INF] Successful at saving Order.
+2022-02-14 17:19:10.090 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 17:19:18.564 -08:00 [INF] Displaying order history menu to the user
+2022-02-14 17:19:40.923 -08:00 [INF] Displaying order history menu to the user
+2022-02-14 17:20:08.454 -08:00 [INF] Displaying order history menu to the user
+2022-02-14 17:20:10.713 -08:00 [INF] Displaying MainMenu to user
+2022-02-14 17:20:18.789 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 17:20:34.404 -08:00 [INF] Displaying view store inventory to the user
+2022-02-14 17:20:36.754 -08:00 [INF] Displaying MainMenu to user
+2022-02-15 15:36:28.250 -08:00 [INF] Exiting Application
+2022-02-15 18:26:55.313 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-15 18:28:16.060 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : small
+Price : $5
+2022-02-15 18:28:16.139 -08:00 [INF] Successful at saving smoothie.
+2022-02-15 18:28:25.708 -08:00 [INF] Saving order at bronx location 
+Name : VeryBerry
+Cup size : small
+Price : $5
+2022-02-15 18:28:25.709 -08:00 [INF] Successful at saving Order.
+2022-02-15 18:28:31.932 -08:00 [INF] Displaying MainMenu to user
+2022-02-16 09:49:39.392 -08:00 [INF] Exiting Application
+2022-02-16 11:18:40.788 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-16 11:18:55.714 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-16 11:19:17.938 -08:00 [INF] Saving smoothie 
+Name : VeryBerry
+Cup size : small
+Price : $5
+2022-02-16 11:19:18.031 -08:00 [INF] Successful at saving smoothie.
+2022-02-16 11:19:31.568 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : large
+Price : $7
+2022-02-16 11:19:31.636 -08:00 [INF] Successful at saving smoothie.
+2022-02-16 11:19:36.243 -08:00 [INF] Saving order at Manhatten location 
+Name : TropicalBreeze
+Cup size : large
+Price : $7
+2022-02-16 11:19:36.243 -08:00 [INF] Successful at saving Order.
+2022-02-16 11:19:39.331 -08:00 [INF] Displaying MainMenu to user
+2022-02-16 11:19:41.547 -08:00 [INF] Exiting Application
+2022-02-16 11:35:24.063 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-16 11:35:31.700 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-16 11:35:35.556 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-16 11:35:46.120 -08:00 [INF] Displaying add Customer Info Menu to the user
+2022-02-16 11:35:49.883 -08:00 [INF] Adding customer Name : dan
+Email : dan@gmail.com
+Age : 90 years old.
+2022-02-16 11:35:50.594 -08:00 [INF] Displaying MainMenu to user
+2022-02-16 11:35:56.714 -08:00 [INF] Displaying view store inventory to the user
+2022-02-16 11:36:13.130 -08:00 [INF] Displaying view store inventory to the user
+2022-02-16 11:36:15.142 -08:00 [INF] Displaying MainMenu to user
+2022-02-16 11:36:25.513 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-16 11:36:58.054 -08:00 [INF] Saving smoothie 
+Name : CoconutFusion
+Cup size : small
+Price : $5
+2022-02-16 11:37:02.418 -08:00 [INF] Displaying AddSmoothie Menu to the user
+2022-02-16 11:37:18.683 -08:00 [INF] Saving smoothie 
+Name : CoconutFusion
+Cup size : small
+Price : $5
+2022-02-16 11:37:18.760 -08:00 [INF] Successful at saving smoothie.
+2022-02-16 11:37:32.671 -08:00 [INF] Saving smoothie 
+Name : TropicalBreeze
+Cup size : large
+Price : $7
+2022-02-16 11:37:32.742 -08:00 [INF] Successful at saving smoothie.
+2022-02-16 11:37:34.647 -08:00 [INF] Saving order at bronx location 
+Name : TropicalBreeze
+Cup size : large
+Price : $7
+2022-02-16 11:37:34.647 -08:00 [INF] Successful at saving Order.
+2022-02-16 11:37:37.788 -08:00 [INF] Displaying MainMenu to user
+2022-02-16 11:37:44.774 -08:00 [INF] Displaying order history menu to the user
+2022-02-16 11:38:06.297 -08:00 [INF] Displaying order history menu to the user
+2022-02-16 11:38:10.911 -08:00 [INF] Displaying MainMenu to user
+2022-02-16 11:38:16.695 -08:00 [INF] Displaying view store inventory to the user
+2022-02-16 11:38:26.658 -08:00 [INF] Displaying view store inventory to the user
+2022-02-16 11:38:28.648 -08:00 [INF] Displaying MainMenu to user
+2022-02-16 11:48:09.640 -08:00 [INF] Exiting Application

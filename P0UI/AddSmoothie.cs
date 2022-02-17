@@ -81,12 +81,10 @@ public class AddSmoothie : IMenu
                 _cusBL.AddOrder(_order);
                 _order = _cusBL.GetOrderbyPrice();
 
-
-                smo.Display();
-
                 
                 bool addingSmo = true;
                 while(addingSmo) {
+                smo.Display();
                 Console.WriteLine("Please type the order number and cup size for the smoothies you would like to order.");
                 Console.WriteLine("Order Number:");
                 ComboNumberr = Convert.ToInt32(Console.ReadLine());
@@ -203,11 +201,11 @@ public class AddSmoothie : IMenu
                 _cusBL.AddOrder(_order);
                 _order = _cusBL.GetOrderbyPrice();
 
-                smo.Display();
+                
 
                  bool addingSmot = true;
                 while(addingSmot) {
-
+                smo.Display();
                 Console.WriteLine("Please type the order number and cup size for the smoothies you would like to order.");
                 Console.WriteLine("Order Number:");
                 ComboNumberr = Convert.ToInt32(Console.ReadLine());
